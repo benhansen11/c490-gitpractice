@@ -1,6 +1,6 @@
 import my_object
 
-class MyDerivedObject(my_derived_object.MyObject):
+class MyDerivedObject(my_object.MyObject):
 
     def __init__(self):
         super().__init__()
